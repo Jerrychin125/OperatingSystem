@@ -19,7 +19,7 @@ int read_line(int fd, char *word) {
 int main() {
 
 	char *ptr[1000] = { NULL };
-	int fd = open("test.txt", O_RDONLY, 0777);
+	int fd = open("test2.txt", O_RDONLY, 0777);
 	char line[128];
 	int id, size, not_eof;
 	
